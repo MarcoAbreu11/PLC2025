@@ -1,0 +1,2 @@
+Uma expressão regular que represente strings binárias que não têm a substring "011"?
+R: (1|00)(010)*0?
