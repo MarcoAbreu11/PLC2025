@@ -2,7 +2,7 @@
 
 Marco António Ferreira Abreu, A108578
 
-![image_alt](https://github.com/MarcoAbreu11/PLC2025/blob/main/Imagem/minha_imagem.jpg?raw=true)
+![image_alt]([https://github.com/MarcoAbreu11/PLC2025/blob/main/Imagem/minha_imagem.jpg?raw=true](https://github.com/MarcoAbreu11/PLC2025/blob/main/TPC1/TPC1_resolucao.txt))
 
 Este repositorio tem como objetivo publicar os TPC's e as minhas resoluções dos TPC's da cadeira Processamento de Linguagens e Compiladores.
 
