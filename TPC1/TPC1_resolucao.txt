@@ -1,0 +1,16 @@
+Uma expressão regular que represente todas as strings binárias que não contenham a subsequência "011"?
+R: ^(?!.*011)[01]*$
+
+Explicação por partes:
+
+"^" :Indica o início da string.
+
+(?!.*011): 
+Significa: “a partir daqui, não pode haver nenhuma ocorrência do padrão .*011”.
+".*" → qualquer sequência (inclusive vazia) de caracteres.
+011 → exatamente a subsequência proibida.
+Portanto, (?!.*011) assegura que em nenhum ponto da string aparece 011.
+
+[01]*: Define que a string só pode conter 0 e 1.O "*" permite qualquer número de ocorrências.
+
+$: Marca o fim da string.
