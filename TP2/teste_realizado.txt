@@ -1,0 +1,23 @@
+# Título Principal
+
+## Subtítulo Secundário
+
+### Subsubtítulo
+
+Texto normal com **negrito** e *itálico*.
+
+1. Primeiro item da lista
+2. Segundo item com **negrito**
+3. Terceiro item com *itálico*
+4. Quarto item com [link](http://exemplo.com)
+
+Texto entre listas.
+
+5. Outra lista
+6. Item com ![imagem](http://exemplo.com/img.jpg)
+
+**Texto em negrito** que contém *itálico dentro* e continua **negrito**.
+
+Visitem [Google](https://google.com) e [UC](http://uc.pt).
+
+![Logo UC](http://uc.pt/logo.png)
