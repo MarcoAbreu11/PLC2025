@@ -22,4 +22,4 @@ Desenvolvi a solução utilizando **expressões regulares** em Python para ident
 2. **Depois processar elementos inline** - usando substituições simples com regex
 3. **Garantir a ordem correta** - especialmente entre imagens e links
 
-Assim cheguei ao código que se encontra [codigo.py](codigo.py). Para verificar se o código estava correto realizei um teste que se encontra [teste_realizado.txt](teste_realizado.txt).
+Assim cheguei ao código que se encontra [codigo.py](codigo.py). Para verificar se o código estava correto realizei um teste que se encontra [teste_realizado.txt](teste_realizado.txt) onde podemos verificar o seu output em [output_esperado.png](output_esperado.png).
