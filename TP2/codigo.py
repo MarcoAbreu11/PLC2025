@@ -1,4 +1,5 @@
 import re
+import sys
 
 def conversor_markdown_html(entrada):
     # Processar listas numeradas PRIMEIRO (lógica especial)
@@ -36,3 +37,7 @@ def conversor_markdown_html(entrada):
     entrada = re.sub(r"\[(.*?)\]\((.+?)\)", r'<a href="\2">\1</a>', entrada)
 
     return entrada
+
+entrada = sys.stdin.read()
+output = conversor_markdown_html(entrada)
+print(output)
