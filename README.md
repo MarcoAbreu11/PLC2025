@@ -1,4 +1,4 @@
-# Processamento de Linguagens e Compiladores TPC's
+# Processamento de Linguagens e Compiladores TP's
 
 Marco António Ferreira Abreu, A108578
 
