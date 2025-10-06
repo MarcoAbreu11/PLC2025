@@ -2,7 +2,7 @@ import re
 import sys
 
 def conversor_markdown_html(entrada):
-    # Processar listas numeradas PRIMEIRO (lógica especial)
+    # Processar listas numeradas 
     linhas = entrada.split('\n')
     resultado = []
     i = 0
