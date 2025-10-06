@@ -15,7 +15,7 @@ O **TPC3** teve como objetivo desenvolver um conversor de **MarkDown para HTML**
 - **Links** (`[texto](url)`) → `<a href="url">texto</a>`
 - **Imagens** (`![alt](src)`) → `<img src="src" alt="alt"/>`
 
-## 🛠️ Como Resolvi o Problema
+## Como Resolvi o Problema
 Desenvolvi a solução utilizando **expressões regulares** em Python para identificar e substituir os padrões MarkDown. A estratégia foi:
 
 1. **Processar listas primeiro** - por requererem lógica especial multi-linha
