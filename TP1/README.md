@@ -1,4 +1,4 @@
-# TPC1 resolução
+# TP1 resolução
 Feito por:
 Marco António Ferreira Abreu, A108578
 
