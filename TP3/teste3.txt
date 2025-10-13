@@ -1,0 +1,9 @@
+SELECT ?produto ?preco ?stock
+WHERE {
+  ?produto a :Produto .
+  ?produto :preco ?preco .
+  ?produto :stock ?stock .
+  FILTER (?preco < 50)
+  FILTER (?stock > 0)
+  FILTER (?preco >= 10)
+}

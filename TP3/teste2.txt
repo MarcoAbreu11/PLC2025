@@ -1,0 +1,7 @@
+SELECT ?estudante ?curso ?nota
+WHERE {
+  ?estudante a :Estudante .
+  ?estudante :frequenta ?curso .
+  ?estudante :temNota ?nota .
+  FILTER (?nota >= 10)
+}
