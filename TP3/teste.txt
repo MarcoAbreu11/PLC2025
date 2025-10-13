@@ -1,8 +1,0 @@
-SELECT ?book ?title ?authorName
-WHERE {
-  ?book :title ?title .
-  ?book :hasAuthor ?author .
-  ?author :name ?authorName .
-  ?book :publicationYear ?year .
-  FILTER (?year >= 2020)
-}
