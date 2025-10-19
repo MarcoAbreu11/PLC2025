@@ -1,0 +1,17 @@
+COMANDOS:
+>> LISTAR
+>> ADICIONAR K01 BOLO_CHOCOLATE 5 1.8
+>> LISTAR
+>> MOEDA 2e
+>> SELECIONAR K01
+>> ADICIONAR K01 BOLO_CHOCOLATE 3 1.8
+>> SELECIONAR K01
+>> SAIR
+
+VERIFICAÇÕES:
+- Produto K01 deve aparecer no LISTAR após adição
+- Stock inicial de K01: 5 unidades
+- Após primeira compra: K01 stock = 4
+- Após ADICIONAR mais 3: K01 stock = 7
+- Após segunda compra: K01 stock = 6
+- Troco final: 20c (2.0€ - 1.8€ = 0.2€)

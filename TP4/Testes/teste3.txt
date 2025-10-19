@@ -1,0 +1,10 @@
+COMANDOS:
+>> MOEDA 1e, 1e, 20c, 5c
+>> SELECIONAR D01 (1.0€)
+>> SELECIONAR G02 (0.7€)
+>> SAIR
+
+VERIFICAÇÕES:
+- Saldo após compras: 55c
+- Troco deve ser: 1x 50c e 1x 5c
+- Stock de D01 e G02 deve diminuir

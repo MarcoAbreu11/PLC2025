@@ -1,0 +1,11 @@
+COMANDOS:
+>> MOEDA 1e, 50c
+>> LISTAR
+>> SELECIONAR A01
+>> SAIR
+
+VERIFICAÇÕES:
+- Saldo inicial deve ser 1e50c
+- Produto A01 deve ser dispensado
+- Stock de A01 deve diminuir de 8 para 7
+- Troco deve ser calculado corretamente

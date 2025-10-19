@@ -1,0 +1,11 @@
+COMANDOS:
+>> SELECIONAR XYZ (produto inexistente)
+>> SELECIONAR H02 (produto sem stock)
+>> MOEDA 10c
+>> SELECIONAR C01 (saldo insuficiente)
+>> SAIR
+
+VERIFICAÇÕES:
+- Mensagens de erro apropriadas para cada situação
+- Stock permanece inalterado para transações inválidas
+- Troco final de 10c
