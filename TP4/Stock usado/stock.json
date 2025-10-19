@@ -1,0 +1,122 @@
+[
+  {
+    "cod": "A01",
+    "nome": "água 0.5L",
+    "quant": 8,
+    "preço": 0.7
+  },
+  {
+    "cod": "A02",
+    "nome": "água 1L",
+    "quant": 5,
+    "preço": 1.0
+  },
+  {
+    "cod": "B01",
+    "nome": "sumo laranja",
+    "quant": 6,
+    "preço": 1.2
+  },
+  {
+    "cod": "B02",
+    "nome": "sumo maçã",
+    "quant": 4,
+    "preço": 1.2
+  },
+  {
+    "cod": "C01",
+    "nome": "chocolate leite",
+    "quant": 10,
+    "preço": 1.5
+  },
+  {
+    "cod": "C02",
+    "nome": "chocolate negro",
+    "quant": 7,
+    "preço": 1.8
+  },
+  {
+    "cod": "D01",
+    "nome": "batatas fritas",
+    "quant": 12,
+    "preço": 1.0
+  },
+  {
+    "cod": "D02",
+    "nome": "amendoins",
+    "quant": 3,
+    "preço": 0.8
+  },
+  {
+    "cod": "E01",
+    "nome": "sanduíche frango",
+    "quant": 5,
+    "preço": 3.5
+  },
+  {
+    "cod": "E02",
+    "nome": "sanduíche vegetar",
+    "quant": 2,
+    "preço": 3.0
+  },
+  {
+    "cod": "F01",
+    "nome": "café expresso",
+    "quant": 15,
+    "preço": 0.6
+  },
+  {
+    "cod": "F02",
+    "nome": "cappuccino",
+    "quant": 8,
+    "preço": 1.2
+  },
+  {
+    "cod": "G01",
+    "nome": "barra cereais",
+    "quant": 9,
+    "preço": 0.9
+  },
+  {
+    "cod": "G02",
+    "nome": "bolacha chocolate",
+    "quant": 6,
+    "preço": 0.7
+  },
+  {
+    "cod": "H01",
+    "nome": "gelado baunilha",
+    "quant": 4,
+    "preço": 2.0
+  },
+  {
+    "cod": "H02",
+    "nome": "gelado chocolate",
+    "quant": 0,
+    "preço": 2.0
+  },
+  {
+    "cod": "I01",
+    "nome": "refrigerante cola",
+    "quant": 10,
+    "preço": 1.5
+  },
+  {
+    "cod": "I02",
+    "nome": "refrigerante laranja",
+    "quant": 7,
+    "preço": 1.5
+  },
+  {
+    "cod": "J01",
+    "nome": "sanduíche queijo",
+    "quant": 0,
+    "preço": 2.5
+  },
+  {
+    "cod": "J02",
+    "nome": "sanduíche presunto",
+    "quant": 1,
+    "preço": 2.8
+  }
+]
