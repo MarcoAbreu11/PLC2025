@@ -1,4 +1,4 @@
-# TP4: Analiziador lexico de Query SparQL
+# TP4: Máquina de Vending Automática
 Feito por:
 Marco António Ferreira Abreu, A108578
 
@@ -62,43 +62,45 @@ Dividi o sistema em ficheiros especializados:
 - **Tratamento de erros**: Mensagens específicas para cada tipo de erro
 - **Recuperação graciosa**: Stock é guardado mesmo com interrupção (Ctrl+C)
 
+Onde cheguei aos codigos que se encontram na pasta [codigo](https://github.com/MarcoAbreu11/PLC2025/tree/main/TP4/codigo).
+
 ## **Casos de Teste Realizados**
 
 ### **Teste 1 - Funcionamento Básico**
-[teste1.txt](teste1.txt)
+[teste1.txt](Teste/teste1.txt)
 - **Comandos**: MOEDA 1e,50c → LISTAR → SELECIONAR A01 → SAIR
 - **Verificações**: 
   - Saldo inicial correto (1e50c)
   - Produto dispensado com sucesso
   - Stock atualizado (A01: 8→7)
   - Troco calculado corretamente (50c+20c+10c)
-**Output**: [teste1.png](teste1.png)
+**Output**: [teste1.png](Teste/teste1.png)
 
 ### **Teste 2 - Cenários de Erro**
-[teste2.txt](teste2.txt)
+[teste2.txt](Teste/teste2.txt)
 - **Comandos**: SELECIONAR XYZ → SELECIONAR H02 → MOEDA 10c → SELECIONAR C01 → SAIR
 - **Verificações**:
   - Produto inexistente (mensagem apropriada)
   - Produto sem stock (H02 com quant=0)
   - Saldo insuficiente (10c vs 1.5€ necessário)
   - Stock permanece inalterado para transações inválidas
-**Output**: [teste2.png](teste2.png)
+**Output**: [teste2.png](Teste/teste2.png)
 
 ### **Teste 3 - Múltiplas Compras**
-[teste3.txt](teste3.txt)
+[teste3.txt](Teste/teste3.txt)
 - **Comandos**: MOEDA 1e,1e,20c,5c → SELECIONAR D01 → SELECIONAR G02 → SAIR
 - **Verificações**:
   - Saldo após compras: 55c
   - Troco otimizado: 1x50c + 1x5c
   - Stock de D01 e G02 diminuído corretamente
-**Output**: [teste3.png](teste3.png)
+**Output**: [teste3.png](Teste/teste3.png)
 
 ### **Teste 4 - Funcionalidade ADICIONAR**
-[teste4.txt](teste4.txt)
+[teste4.txt](Teste/teste4.txt)
 - **Comandos**: LISTAR → ADICIONAR K02 BOLO_CHOCOLATE 5 1.8 → LISTAR → MOEDA 2e → SELECIONAR K01 → ADICIONAR K02 3 1.8 → SELECIONAR K01 → SAIR
 - **Verificações**:
   - Novo produto K02 criado com sucesso
   - Stock inicial de K01: 8 → 7 após compra
   - Stock de K02: 5 → 8 após ADICIONAR
   - Troco final: 20c (2.0€ - 1.8€ = 0.2€)
-**Output**: [teste4_print1.png](teste4_print1.png) e [teste4_print2.png](teste4_print2.png)
+**Output**: [teste4_print1.png](Teste/teste4_print1.png) e [teste4_print2.png](Teste/teste4_print2.png)
