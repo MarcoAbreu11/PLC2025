@@ -16,9 +16,9 @@ Este exerxicio tem como objetivo implementar um **analisador léxico e sintátic
 
 ## Como Foi Resolvido
 
-### Estrutura do Projeto
+### Estrutura do programa
 
-O projeto está organizado em três ficheiros principais:
+O programa está organizado em três ficheiros principais:
 
 - **[conta_analex.py](código/conta_analex.py)**: Implementação do analisador léxico
 - **[conta_anasin.py](código/conta_anasin.py)**: Implementação do analisador sintático  
