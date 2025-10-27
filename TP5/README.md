@@ -50,7 +50,7 @@ p4: Op -> SOMA | DIFERENCA | MULTIPLICACAO | DIVISAO
 - Inclui tratamento de erros sintáticos
 - Fornece output detalhado do processo de reconhecimento
 
-### Ficheiro: [Fluxo de Execução](código/conta_programa.py)
+### Fluxo de Execução
 
 1. O utilizador introduz uma expressão no programa principal
 2. O analisador léxico tokeniza a input
