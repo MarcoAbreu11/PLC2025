@@ -1,6 +1,10 @@
-# Análise Léxica e Sintática de Expressões Aritméticas
+# TP5: Análise Léxica e Sintática de Expressões Aritméticas
+Feito por:
+Marco António Ferreira Abreu, A108578
 
-## 📋 Objetivo do Exercício
+![image_alt](https://github.com/MarcoAbreu11/PLC2025/blob/main/Imagem/minha_imagem.jpg?raw=true)
+
+## Objetivo do Exercício
 
 Este projeto tem como objetivo implementar um **analisador léxico e sintático** para expressões aritméticas simples. O sistema deve ser capaz de:
 
@@ -10,15 +14,15 @@ Este projeto tem como objetivo implementar um **analisador léxico e sintático*
 - Processar operações matemáticas com números inteiros e parênteses
 - Fornecer um output detalhado do processo de análise
 
-## 🛠️ Como Foi Resolvido
+## Como Foi Resolvido
 
 ### Estrutura do Projeto
 
 O projeto está organizado em três ficheiros principais:
 
-- **[conta_analex.py](conta_analex.py)**: Implementação do analisador léxico
-- **[conta_anasin.py](conta_anasin.py)**: Implementação do analisador sintático  
-- **[conta_programa.py](conta_programa.py)**: Programa principal
+- **[conta_analex.py](código/conta_analex.py)**: Implementação do analisador léxico
+- **[conta_anasin.py](código/conta_anasin.py)**: Implementação do analisador sintático  
+- **[conta_programa.py](código/conta_programa.py)**: Programa principal
 
 ### Gramática Implementada
 p1: Exp -> Term OpExp
