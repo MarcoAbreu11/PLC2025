@@ -25,11 +25,13 @@ O projeto está organizado em três ficheiros principais:
 - **[conta_programa.py](código/conta_programa.py)**: Programa principal
 
 ### Gramática Implementada
+
+```text
 p1: Exp -> Term OpExp
 p2: OpExp -> Op Exp | ε
 p3: Term -> INT | PARENTESES_ABRIR Exp PARENTESES_FECHAR
 p4: Op -> SOMA | DIFERENCA | MULTIPLICACAO | DIVISAO
-
+```
 ### Análise Léxica
 
 **Ficheiro: [conta_analex.py](código/conta_analex.py)**
