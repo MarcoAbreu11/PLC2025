@@ -6,7 +6,7 @@ Marco António Ferreira Abreu, A108578
 
 ## Objetivo do Exercício
 
-Este exerxicio tem como objetivo implementar um **analisador léxico e sintático** para expressões aritméticas simples. O sistema deve ser capaz de:
+Este exercício tem como objetivo implementar um **analisador léxico e sintático** para expressões aritméticas simples. O sistema deve ser capaz de:
 
 - Reconhecer tokens básicos em expressões matemáticas (números, operadores, parênteses)
 - Validar a estrutura sintática das expressões segundo uma gramática definida
