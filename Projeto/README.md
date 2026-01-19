@@ -1,5 +1,19 @@
-# Pascal-to-VM Compiler
+# Processamento de Linguagens e Compiladores - Trabalho Prático
 
+**Realizado por:**
+- Cláudio Rafael Oliveira Ferreira (A108577)
+
+<img width="180" height="180" alt="image" src="https://github.com/claudioferreira177/PLC2025/blob/main/img/perfil.jpg?raw=true" />
+
+- Marco António Ferreira Abreu (A108578)
+
+<img width="180" height="180" alt="image" src="https://github.com/MarcoAbreu11/PLC2025/blob/main/Imagem/minha_imagem.jpg?raw=true" />
+
+- Nelson Daniel Araújo Sousa (A109068)
+
+<img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/37338582-83b4-4b7d-933b-ecc82cbd9d91" />
+
+## Objetivo
 Este projeto é um compilador funcional para um subconjunto da linguagem **Pascal**, desenvolvido em Python utilizando a biblioteca **PLY (Python Lex-Yacc)**. O sistema traduz código fonte Pascal para instruções assembly compatíveis com uma **Máquina Virtual (VM)** baseada em pilha.
 
 
@@ -15,7 +29,7 @@ Este projeto é um compilador funcional para um subconjunto da linguagem **Pasca
 * **Funções Nativas (Built-ins):** `writeln`, `readln`, `length`, `abs`, `concat`, `sqr`, `sqrt`, `trunc` e `round`.
 
 ## Estrutura do Repositório
-
+Dentro da pasta do Compilador temos:
 * `src/`: Pasta com o código fonte do compilador.
     * `pascal_analex.py`: Lexer (Analisador Léxico).
     * `parser.py`: Parser (Analisador Sintático) e Geração de Código.
@@ -51,12 +65,5 @@ O compilador gera código para uma máquina baseada em pilha. O layout de memór
 - Área Global: Variáveis globais acedidas via PUSHG / STOREG.
 - Stack Frames: Geridos em chamadas de subprogramas via PUSHL / STOREL.
 
-## Densenvolvimento
-Desenvolvido para fins académicos na unidade curricular de Processamento de Linguagens e Compiladores.
-
-
-
-
-
-
-
+## Motivo
+Este projeto foi realizado para fins académicos na unidade curricular de Processamento de Linguagens e Compiladores.
