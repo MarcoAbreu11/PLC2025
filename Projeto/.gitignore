@@ -1,1 +1,18 @@
+```text
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
+# PLY (Gerados automaticamente)
+parsetab.py
+parser.out
+
+# Outputs de compilação
+out_vm/
+*.vm
+
+# Sistema
+.DS_Store
+.vscode/
+.idea/
