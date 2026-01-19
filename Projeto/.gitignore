@@ -4,8 +4,8 @@ __pycache__/
 *$py.class
 
 # PLY - Ficheiros gerados pelo Lexer/Parser
-compilador/parsetab.py
-compilador/parser.out
+Compilador/src/parsetab.py
+Compilador/src/parser.out
 parsetab.py
 parser.out
 
