@@ -1,18 +1,20 @@
-```text
-# Python
+# Python - Ficheiros temporários de execução
 __pycache__/
 *.py[cod]
 *$py.class
 
-# PLY (Gerados automaticamente)
+# PLY - Ficheiros gerados pelo Lexer/Parser
+compilador/parsetab.py
+compilador/parser.out
 parsetab.py
 parser.out
 
-# Outputs de compilação
-out_vm/
+# Compilador - Outputs da Máquina Virtual
 *.vm
+compilador/out_vm/
 
-# Sistema
+# Sistema e IDEs
 .DS_Store
 .vscode/
 .idea/
+Thumbs.db
